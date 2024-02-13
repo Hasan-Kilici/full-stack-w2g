@@ -5,6 +5,11 @@ W2G, arkadaşlarınızla YouTube veya diğer çevrimiçi platformlardan birlikte
 Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
 ## Backend
+[.env](https://github.com/Hasan-Kilici/full-stack-w2g/blob/main/backend/.env) dosyasını açıp Oauth2 için gerekli bilgileri girin
+```env
+client_id=clientID
+client_secret=clientSecret
+```
 Terminali açın ve backend klasörüne gidin:
 ```sh
 cd backend
