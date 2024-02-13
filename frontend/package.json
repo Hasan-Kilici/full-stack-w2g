@@ -1,0 +1,29 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@skeletonlabs/skeleton": "2.8.0",
+    "@skeletonlabs/tw-plugin": "0.3.1",
+    "@sveltejs/adapter-auto": "^3.0.0",
+    "@sveltejs/kit": "^2.0.0",
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "autoprefixer": "10.4.17",
+    "postcss": "8.4.35",
+    "svelte": "^4.2.7",
+    "tailwindcss": "3.4.1",
+    "vite": "^5.0.3",
+    "vite-plugin-tailwind-purgecss": "0.2.0",
+    "vitest": "^1.2.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "js-cookie": "^3.0.5"
+  }
+}
