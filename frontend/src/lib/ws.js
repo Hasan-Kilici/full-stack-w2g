@@ -34,7 +34,7 @@ export function initializeWebSocket(room, username) {
                 
             break;
             case "leave":
-                videos.update(users => users.filter(user => user.username !== data.username));
+                users.update(users => users.filter(user => user.username !== data.username));
             break;
         }
     });
