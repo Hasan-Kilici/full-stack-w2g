@@ -16,7 +16,6 @@ func main() {
         JSONDecoder : 	json.Unmarshal,
     })
 
-	app.Static("/", "./public")
 	
 	app.Use(middleware.Logger)
 	app.Use(middleware.Compress)
